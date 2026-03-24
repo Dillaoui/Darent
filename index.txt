@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DARENT QH - حجز الشقق الفاخرة بالرباط</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root { --gold: #D4AF37; --black: #0B0B0B; --white: #FFFFFF; }
+        body { font-family: 'Cairo', sans-serif; background-color: var(--black); color: var(--white); margin: 0; padding: 0; }
+        .banner { width: 100%; height: 280px; background: url('banner.jpg') no-repeat center center/cover; border-bottom: 4px solid var(--gold); }
+        header { text-align: center; padding: 40px 20px; }
+        h1 { color: var(--gold); font-size: 3rem; margin: 0; letter-spacing: 2px; }
+        .building-note { color: var(--gold); background: rgba(212, 175, 55, 0.1); display: inline-block; padding: 15px 25px; border-radius: 10px; border: 1px solid var(--gold); margin-top: 15px; font-weight: bold; }
+        
+        .container { max-width: 1000px; margin: 0 auto; padding: 20px; }
+        
+        .apt-section { background: #1A1A1A; border-radius: 25px; margin-bottom: 70px; border: 1px solid #333; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.5); }
+        .apt-header { background: #111; padding: 25px; text-align: center; border-bottom: 1px solid #333; }
+        .apt-title { color: var(--gold); font-size: 2.2rem; margin: 0; }
+        .apt-floor { color: #aaa; font-size: 1.2rem; margin-top: 5px; }
+
+        /* عرض الصور بشكل كامل */
+        .image-container { width: 100%; background: #000; display: flex; justify-content: center; }
+        .apt-image { width: 100%; height: auto; max-height: 600px; object-fit: contain; }
+
+        /* تقويم الساعات مع إمكانية التحكم */
+        .calendar-container { width: 100%; height: 800px; background: white; border: none; }
+        iframe { width: 100%; height: 100%; border: none; }
+
+        /* منطقة الموقع والرابط */
+        .location-area { background: #111; padding: 20px; text-align: center; border-top: 1px solid #333; border-bottom: 1px solid #333; }
+        .location-link { color: #007AFF; text-decoration: none; font-size: 1.1rem; display: flex; align-items: center; justify-content: center; gap: 10px; }
+        .location-link:hover { text-decoration: underline; color: var(--gold); }
+
+        /* أزرار الاتصال */
+        .btn-container { display: flex; gap: 20px; justify-content: center; padding: 30px; background: #111; }
+        .btn { flex: 1; max-width: 250px; padding: 18px; border-radius: 50px; text-decoration: none; font-weight: bold; color: white; text-align: center; font-size: 1.2rem; transition: 0.3s; border: none; cursor: pointer; }
+        .btn-whatsapp { background-color: #25D366; box-shadow: 0 4px 15px rgba(37, 211, 102, 0.3); }
+        .btn-call { background-color: #007AFF; box-shadow: 0 4px 15px rgba(0, 122, 255, 0.3); }
+        .btn:hover { transform: translateY(-3px); opacity: 0.9; }
+
+        footer { text-align: center; padding: 50px; opacity: 0.6; border-top: 1px solid #333; font-size: 0.9rem; }
+    </style>
+</head>
+<body>
+
+    <div class="banner"></div>
+
+    <header>
+        <h1>DARENT QH</h1>
+        <div class="building-note">📍 جميع الشقق متواجدة في نفس العمارة - حي حسان، الرباط</div>
+    </header>
+
+    <div class="container">
+        
+        <div class="apt-section">
+            <div class="apt-header">
+                <h2 class="apt-title">الشقة رقم 5</h2>
+                <div class="apt-floor">الطابق الأول - حي حسان</div>
+            </div>
+            <div class="image-container"><img src="apt1.jpg" alt="شقة 5" class="apt-image"></div>
+            <div class="calendar-container">
+                <iframe src="https://calendar.google.com/calendar/embed?src=01620c431f99c15e4f9b800170a4a8da928a38787c8801d06e2f4949214732ae%40group.calendar.google.com&ctz=Africa%2FCasablanca&mode=WEEK&showNav=1&showTabs=1&showPrint=0&showCalendars=0&showTz=0"></iframe>
+            </div>
+            <div class="location-area">
+                <a href="Https://maps.app.goo.gl/kdTcFh6ntj1tpist8" target="_blank" class="location-link">📍 اضغط هنا لفتح الموقع الجغرافي للشقة (GPS)</a>
+            </div>
+            <div class="btn-container">
+                <a href="https://wa.me/212628469502" class="btn btn-whatsapp">واتساب ✅</a>
+                <a href="tel:+212628469502" class="btn btn-call">إتصل الآن 📞</a>
+            </div>
+        </div>
+
+        <div class="apt-section">
+            <div class="apt-header">
+                <h2 class="apt-title">الشقة رقم 2</h2>
+                <div class="apt-floor">الطابق السفلي - حي حسان</div>
+            </div>
+            <div class="image-container"><img src="apt2.jpg" alt="شقة 2" class="apt-image"></div>
+            <div class="calendar-container">
+                <iframe src="https://calendar.google.com/calendar/embed?src=4f603c6130b05b68269d0d937060ba941014e30ef4e313d42055670868a2614b%40group.calendar.google.com&ctz=Africa%2FCasablanca&mode=WEEK&showNav=1&showTabs=1&showPrint=0&showCalendars=0&showTz=0"></iframe>
+            </div>
+            <div class="location-area">
+                <a href="Https://maps.app.goo.gl/kdTcFh6ntj1tpist8" target="_blank" class="location-link">📍 اضغط هنا لفتح الموقع الجغرافي للشقة (GPS)</a>
+            </div>
+            <div class="btn-container">
+                <a href="https://wa.me/212628469502" class="btn btn-whatsapp">واتساب ✅</a>
+                <a href="tel:+212628469502" class="btn btn-call">إتصل الآن 📞</a>
+            </div>
+        </div>
+
+        <div class="apt-section">
+            <div class="apt-header">
+                <h2 class="apt-title">الشقة رقم 8</h2>
+                <div class="apt-floor">الطابق الأول - حي حسان</div>
+            </div>
+            <div class="image-container"><img src="apt3.jpg" alt="شقة 8" class="apt-image"></div>
+            <div class="calendar-container">
+                <iframe src="https://calendar.google.com/calendar/embed?src=90848972ca8e492215c0e0b3bc1b6a18d36f9a721387d55c707f43370e7a7972%40group.calendar.google.com&ctz=Africa%2FCasablanca&mode=WEEK&showNav=1&showTabs=1&showPrint=0&showCalendars=0&showTz=0"></iframe>
+            </div>
+            <div class="location-area">
+                <a href="Https://maps.app.goo.gl/kdTcFh6ntj1tpist8" target="_blank" class="location-link">📍 اضغط هنا لفتح الموقع الجغرافي للشقة (GPS)</a>
+            </div>
+            <div class="btn-container">
+                <a href="https://wa.me/212628469502" class="btn btn-whatsapp">واتساب ✅</a>
+                <a href="tel:+212628469502" class="btn btn-call">إتصل الآن 📞</a>
+            </div>
+        </div>
+
+        <div class="apt-section">
+            <div class="apt-header">
+                <h2 class="apt-title">الشقة رقم 4</h2>
+                <div class="apt-floor">الطابق الأول - حي حسان</div>
+            </div>
+            <div class="image-container"><img src="apt4.jpg" alt="شقة 4" class="apt-image"></div>
+            <div class="calendar-container">
+                <iframe src="https://calendar.google.com/calendar/embed?src=65f9035252d6a782415128c743bc3305202816918804860cc27e02914104c947%40group.calendar.google.com&ctz=Africa%2FCasablanca&mode=WEEK&showNav=1&showTabs=1&showPrint=0&showCalendars=0&showTz=0"></iframe>
+            </div>
+            <div class="location-area">
+                <a href="Https://maps.app.goo.gl/kdTcFh6ntj1tpist8" target="_blank" class="location-link">📍 اضغط هنا لفتح الموقع الجغرافي للشقة (GPS)</a>
+            </div>
+            <div class="btn-container">
+                <a href="https://wa.me/212628469502" class="btn btn-whatsapp">واتساب ✅</a>
+                <a href="tel:+212628469502" class="btn btn-call">إتصل الآن 📞</a>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>© 2026 DARENT QH - الرباط، حي حسان</p>
+    </footer>
+
+</body>
+</html>
